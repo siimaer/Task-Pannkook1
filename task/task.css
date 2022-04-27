@@ -1,0 +1,34 @@
+body {
+    background-color: lightpink;
+ }
+
+ .heading{ 
+     color: red;
+     font-family: 'Bebas Neue', cursive;
+     
+ }
+
+ .osad { 
+     color: red;
+     border: 1px solid black;
+     width: 10%;
+ }
+
+ .image{
+     width: 300px;
+     margin-top: 15px;
+  }
+
+ .instructions { 
+    margin-top: 20px;
+     color: red;
+     border: 1px solid black;
+     width: 20%;
+ }
+
+
+
+
+.footer {
+    color: red;
+ }
