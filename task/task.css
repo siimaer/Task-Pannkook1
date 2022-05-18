@@ -5,19 +5,47 @@ body {
  .heading{ 
      color: red;
      font-family: 'Bebas Neue', cursive;
+     position: relative; /*top-right-bottom-left*/
+     animation: heading;
+     animation-duration: 3s;
      
+ }
+
+ @keyframes heading {
+     0% {top:-250px}
+     100%{top: 0;}
  }
 
  .osad { 
      color: red;
      border: 1px solid black;
      width: 10%;
+     position: relative; /*top-right-bottom-left*/
+     animation: osad;
+     animation-duration: 3s;
  }
+
+ @keyframes osad{
+    0% {left: -1000px;}
+    85%{left: 50px;}
+    100%{left: 0;}
+    }
 
  .image{
      width: 300px;
      margin-top: 15px;
+     position: relative;
+     animation: image;
+     animation-duration: 3s;
   }
+
+@keyframes image {
+100% {-webkit-transform:rotateX(360deg)}
+100%{-webkit-transform: rotateY(360deg)}
+ 
+}
+
+
 
  .instructions { 
     margin-top: 20px;
